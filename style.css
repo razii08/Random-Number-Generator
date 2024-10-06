@@ -1,0 +1,35 @@
+h1{
+    background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 3em;
+}
+body{
+    text-align: center;
+    background-color: #fcd5ce;
+    font-family: Arial, sans-serif;
+
+}
+.glow-on-hover {
+    background: linear-gradient(45deg, #ff007f, #ffbb33);
+    border: none; 
+    border-radius: 50px; 
+    color: white;
+    padding: 15px 40px;
+    font-size: 20px;
+    cursor: pointer; 
+    transition: all 0.4s ease; 
+    box-shadow: 0 4px 10px rgba(255, 0, 127, 0.5); 
+    position: relative;
+    overflow: hidden; 
+}
+.glow-on-hover:hover {
+    background-color: #45a049; 
+    transform: scale(1.05); 
+}
+.labels{
+font-size: 100px;
+position: relative;
+top: 350px;
+left: 80px;
+}
